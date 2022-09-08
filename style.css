@@ -16,7 +16,7 @@
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 18px;
-  min-height: 200vh;
+  min-height: 420vh;
 
   background: url('images/bg-header-desktop.png');
   background-repeat: no-repeat;
@@ -25,8 +25,8 @@ body {
 
   position: relative;
 }
-/* 
-body::after {
+
+/* body::after {
   margin: -8.125rem 0;
   content: ' ';
   top: 0;
@@ -172,4 +172,16 @@ body::after {
 
 .attribution {
   display: none;
+}
+
+
+/* ACCESS SECTION */
+.access .heading--secondary{
+  margin-top:1rem;
+}
+
+.access .description{
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 6.5rem;
 }
