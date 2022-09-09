@@ -16,7 +16,7 @@
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 18px;
-  min-height: 420vh;
+  min-height: 360vh;
 
   background: url('images/bg-header-desktop.png');
   background-repeat: no-repeat;
@@ -174,14 +174,68 @@ body {
   display: none;
 }
 
-
 /* ACCESS SECTION */
-.access .heading--secondary{
-  margin-top:1rem;
+.access {
+  margin-bottom: 2.8rem;
 }
 
-.access .description{
+.access .heading--secondary {
+  margin-top: 1rem;
+}
+
+.access .description {
   font-size: 1.15rem;
   line-height: 1.6;
   margin-bottom: 6.5rem;
+}
+
+/* SECTION FEATURES */
+.xl {
+  max-width: 1115px;
+}
+
+.features {
+  margin-top: 1rem;
+}
+
+.features .description {
+  font-size: 1.14rem;
+  padding-top: 0.2rem;
+  margin-bottom: 3.5rem;
+}
+
+.features-boxes {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.5rem;
+}
+
+.features-box {
+  padding: 1.3rem 0;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#blacklist-icon {
+  margin-bottom: 2.25rem;
+}
+
+.features-box img {
+  margin-bottom: 2.8rem;
+}
+
+.feature-heading {
+  color: var(--dark-grayish-blue);
+  font-size: 1.45rem;
+  margin-bottom: 1.26rem;
+}
+
+.feature-description {
+  text-align: center;
+  color: var(--grayish-blue);
+  line-height: 1.66;
+  font-size: 1.015rem;
 }
