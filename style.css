@@ -16,7 +16,7 @@
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 18px;
-  min-height: 360vh;
+  min-height: 400vh;
 
   background: url('images/bg-header-desktop.png');
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ body {
 .buttons {
   display: flex;
   justify-content: space-between;
-  column-gap: 1.3rem;
+  column-gap: 1.24rem;
 
   opacity: 1;
 }
@@ -90,7 +90,7 @@ body {
   font-weight: 600;
   font-size: 1.2rem;
   color: #fff;
-  padding: 0.9rem 1.9rem;
+  padding: 1rem 2rem;
   border-radius: 2rem;
 }
 
@@ -107,7 +107,7 @@ body {
 .heading--secondary {
   color: var(--dark-grayish-blue);
   font-size: 2.17rem;
-  margin-top: 1.4rem;
+  margin-top: 1.3rem;
   margin-bottom: 1.2rem;
   font-weight: 600;
 }
@@ -238,4 +238,23 @@ body {
   color: var(--grayish-blue);
   line-height: 1.66;
   font-size: 1.015rem;
+}
+
+/* LOGO BOXES */
+.logos {
+  padding-top: 0.85rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 6.02rem;
+}
+
+/* APPS SECTION */
+.apps {
+  padding-top: 0.4rem;
+}
+
+.apps .description {
+  font-size: 1.15rem;
+  line-height: 1.6;
 }
