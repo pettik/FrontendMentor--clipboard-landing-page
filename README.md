@@ -13,5 +13,5 @@ Thanks for checking out this front-end coding challenge.
 
 The challenge is to build out this landing page and get it looking as close to the design as possible. 
 
-## UPDATE 9th of August 2022 - 4 sections done (HERO, SNIPPETS, ACCESS, SUPERCHARGE) 💪 ⬇⬇⬇
-<img src="09-09-2022.png" alt="update preview">
+## UPDATE 13th of August 2022 - All sections done (HERO, SNIPPETS, ACCESS, SUPERCHARGE, FOOTER - must be edited) 💪 ⬇⬇⬇
+<img src="13-09-2022.png" alt="update preview">
