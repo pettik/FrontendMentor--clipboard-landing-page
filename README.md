@@ -7,7 +7,7 @@
 Thanks for checking out this front-end coding challenge.
 
 
-**To do this challenge a basic understanding of HTML and CSS is needed**
+**To do this challenge is needed a basic understanding of HTML and CSS **
 
 ## The challenge
 
