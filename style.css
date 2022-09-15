@@ -16,7 +16,7 @@
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 18px;
-  min-height: 405vh;
+  /* min-height: 405vh; */
 
   background: url('images/bg-header-desktop.png');
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body {
 
   position: relative;
 }
-/* 
+/*
 body::after {
   margin: -8.125rem 0;
   content: ' ';
@@ -82,7 +82,6 @@ body::after {
   justify-content: space-between;
   column-gap: 1.24rem;
 
-  opacity: 1;
 }
 
 .btn {
@@ -340,4 +339,72 @@ body::after {
 .icon:hover {
   cursor: pointer;
   color: hsl(171, 52%, 58%);
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px){
+
+
+body{
+  background: url('images/bg-header-mobile.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+
+
+.container{
+  max-width: 90vw;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+}
+
+.container .logo{
+  width: 12rem;
+}
+
+.container .heading--primary{
+  text-align: center;
+  padding: 0 .7rem;
+}
+
+.container .buttons{
+  flex-direction: column;
+  width:100%;
+  row-gap: 1rem;
+}
+
+.container .btn {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.snippets-img {
+width:100%;
+margin:0;
+}
+
+.snippets-img img{
+  width:300px;
+  height: auto;
+  margin:0;
+}
+
+.container .access{
+  max-width: 100%;
+}
+
+.image-devices{
+  width:100%;
+}
+
+.snippets-box,
+.logos,
+.footer-content{
+  flex-direction: column;
+}
 }
