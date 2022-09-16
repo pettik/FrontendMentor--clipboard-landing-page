@@ -81,7 +81,6 @@ body::after {
   display: flex;
   justify-content: space-between;
   column-gap: 1.24rem;
-
 }
 
 .btn {
@@ -341,75 +340,82 @@ body::after {
   color: hsl(171, 52%, 58%);
 }
 
-.container.xl.footer{
+.container.xl.footer {
   margin-bottom: 0;
   width: 100vw;
 }
 
-
 /* MEDIA QUERIES */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
+  body {
+    background: url('images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+  }
 
+  .container {
+    max-width: 90vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
-body{
-  background: url('images/bg-header-mobile.png');
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: contain;
-}
+    margin-top: 6.8rem;
+  }
 
+  .container .logo {
+    width: 7rem;
+    margin-bottom: 4rem;
+  }
 
+  .container .heading--primary {
+    text-align: center;
+    width: 110%;
+    font-size: 2rem;
+    font-weight: 600;
+  }
 
-.container{
-  max-width: 90vw;
-  padding-left: 2.2rem;
-  padding-right: 2.2rem;
-}
+  .container .buttons {
+    flex-direction: column;
+    width: 100%;
+    row-gap: 1rem;
+  }
 
-.container .logo{
-  width: 12rem;
-}
+  .container .btn {
+    width: 100%;
+    text-align: center;
+  }
 
-.container .heading--primary{
-  text-align: center;
-  padding: 0 .7rem;
-}
+  .snippets-img {
+    width: 100%;
+    margin: 0;
+  }
 
-.container .buttons{
-  flex-direction: column;
-  width:100%;
-  row-gap: 1rem;
-}
+  .snippets-img img {
+    width: 300px;
+    height: auto;
+    margin: 0;
+  }
 
-.container .btn {
-  width: 100%;
-  text-align: center;
-}
+  .container .access {
+    max-width: 100%;
+  }
 
+  .image-devices {
+    width: 100%;
+  }
 
+  .snippets-box,
+  .logos,
+  .footer-content {
+    flex-direction: column;
+  }
 
-.snippets-img {
-width:100%;
-margin:0;
-}
+  .footer .links ul {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 50px);
+  }
 
-.snippets-img img{
-  width:300px;
-  height: auto;
-  margin:0;
-}
-
-.container .access{
-  max-width: 100%;
-}
-
-.image-devices{
-  width:100%;
-}
-
-.snippets-box,
-.logos,
-.footer-content{
-  flex-direction: column;
-}
+  .footer-content {
+    min-width: initial;
+  }
 }
