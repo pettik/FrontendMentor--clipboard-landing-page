@@ -403,6 +403,12 @@ body::after {
   .image-devices {
     width: 100%;
   }
+  
+  .features-boxes{
+  flex-direction:column;
+  
+  }
+  
 
   .snippets-box,
   .logos,
