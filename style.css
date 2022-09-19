@@ -374,6 +374,11 @@ body::after {
     font-weight: 600;
   }
 
+  .container .description {
+    font-size: 0.99rem;
+    line-height: 1.6;
+  }
+
   .container .buttons {
     flex-direction: column;
     width: 100%;
@@ -382,6 +387,14 @@ body::after {
 
   .container .btn {
     width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 0.95rem;
+  }
+
+  .heading--secondary,
+  .access.heading--secondary {
+    font-size: 1.8rem;
     text-align: center;
   }
 
@@ -396,6 +409,15 @@ body::after {
     margin: 0;
   }
 
+  .snippets-advantages ul {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .access .description {
+    margin-bottom: 3rem;
+  }
+
   .container .access {
     max-width: 100%;
   }
@@ -403,12 +425,21 @@ body::after {
   .image-devices {
     width: 100%;
   }
-  
-  .features-boxes{
-  flex-direction:column;
-  
+
+  .features-boxes {
+    flex-direction: column;
   }
-  
+
+  .container.logos {
+    margin: 0 auto !important;
+  }
+  .logos {
+    padding-top: 0;
+  }
+
+  .container.logos img {
+    margin-bottom: 3.8rem;
+  }
 
   .snippets-box,
   .logos,
@@ -423,5 +454,32 @@ body::after {
 
   .footer-content {
     min-width: initial;
+  }
+
+  .container.xl.footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 100%;
+    max-width: 100vw !important;
+  }
+
+  .footer-content {
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+  }
+
+  .footer-content .links {
+    text-align: center;
+  }
+
+  .links ul li {
+    height: 2rem;
+  }
+
+  .footer .social-icons {
+    justify-self: center;
+    padding-left: 0;
+    width: 100%;
   }
 }
