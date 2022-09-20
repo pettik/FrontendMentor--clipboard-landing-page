@@ -14,9 +14,9 @@ Thanks for checking out this front-end coding challenge.
 The challenge is to build out this landing page and get it looking as close to the design as possible. 
 
 ## UPDATE 20th of August 2022 - 🖥️ DESKTOP VERSION ⬇⬇⬇
-<img src="15-09-2022.png" alt="update preview">
+<img src="15-09-2022.png" alt="desktop preview">
 
 
 ## UPDATE 20th of August 2022 - 📱 MOBILE VERSION ⬇⬇⬇
-<img src="20-09-2022.png" alt="update preview">
+<img src="20-09-2022.png" alt="mobile preview" width=300px;>
 
